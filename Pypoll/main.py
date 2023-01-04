@@ -17,7 +17,7 @@ total_votes = 0
 winner = ""
 
 # Set path for file
-csvpath = os.path.join('Pypoll',"Resources","election_data.csv")
+csvpath = os.path.join('Pypoll', 'Resources', 'election_data.csv')
 
 # Open and read csv
 with open(csvpath, encoding='utf=8') as csvfile:
